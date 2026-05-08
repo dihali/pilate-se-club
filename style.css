@@ -618,10 +618,36 @@ p { color: var(--muted); line-height: 1.6; letter-spacing: 0.1px; }
   background: rgba(18,12,8,.8);
 }
 .cta .wrap { position: relative; z-index: 2; }
-.cta__body { max-width: 520px; }
-.cta__body h2 { color: var(--white); margin-bottom: 14px; }
+.cta__body { max-width: 600px; }
+.cta__body h2 { color: var(--white); margin-bottom: 18px; }
 .cta__body h2 em { color: var(--amber-lt); }
-.cta__body > p { color: rgba(255,255,255,.55); margin-bottom: 36px; }
+.cta__proof {
+  font-style: italic;
+  font-size: .97rem;
+  color: rgba(255,255,255,.72);
+  margin-bottom: 10px;
+  line-height: 1.55;
+}
+.cta__sub {
+  color: rgba(255,255,255,.5);
+  font-size: .88rem;
+  margin-bottom: 32px;
+  line-height: 1.6;
+}
+.cta__sub strong { color: var(--amber-lt); font-weight: 600; }
+.cta__btns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+.cta__urgency {
+  font-family: var(--ff-b);
+  font-size: .72rem;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.32);
+}
 
 /* === LOCALIZAÇÃO === */
 .local {
