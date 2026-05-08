@@ -815,6 +815,14 @@ p { color: var(--muted); line-height: 1.6; letter-spacing: 0.1px; }
   .nav__links, .nav__cta { display: none; }
   .nav__toggle { display: flex; }
 
+  /* nav sempre visível em mobile */
+  .nav {
+    background: linear-gradient(to bottom, rgba(0,0,0,.55) 0%, transparent 100%);
+  }
+
+  /* h1 menor pra palavra caber em linha única */
+  h1 { font-size: 2rem; }
+
   .nav__drawer {
     display: flex;
     flex-direction: column;
